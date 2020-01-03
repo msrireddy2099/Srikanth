@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <property name="build.compiler" value="extJavac"/>
+  <property name="compositeName" value="HelloWorldSOA"/>
+  <property name="compositeDir" value="C:\JDeveloper\PSTAB3\HelloWorldSOA\HelloWorldSOA"/>
+  <property name="revision" value="1.0-SNAPSHOT"/>
+  <property name="scac.application.home" value="C:\JDeveloper\PSTAB3\HelloWorldSOA\HelloWorldSOA/.."/>
+  <ant antfile="F:\\SOA1212\\Middleware\\Oracle_Home\\soa\\bin\\ant-sca-package.xml" dir="F:\\SOA1212\\Middleware\\Oracle_Home\\soa\\bin" target="package"/>
+</target>
+</project>
